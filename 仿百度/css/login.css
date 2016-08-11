@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("../imgs/bg.png") no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#panel{
+    width: 15rem;
+    background-color: white;
+    margin:0 auto;
+    padding: 1.5rem;
+    margin-top: 7rem;
+    border-radius: 0.5rem;
+    box-shadow: 1rem 1rem 5rem;
+}
+
+#panel .panel-header{
+    border-bottom: 0.1rem solid #dddddd;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+#panel-content{
+
+
+}
+
+.user-pwd{
+    margin-bottom: 0.5rem;
+    text-align: left;
+    position: relative;
+    height: 2.2rem;
+}
+
+.user-pwd img{
+    position: absolute;
+    left: 0.5rem;
+    top: 0.5rem;
+}
+
+.user-pwd input{
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 2.5rem;
+    width: 100%;
+    outline: none;
+    border-radius: 0.2rem;
+}
+
+.user-pwd input:focus{
+    border: 0.1rem solid #3385ff;
+}
+
+#setting{
+    text-align: left;
+}
+
+#setting a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 0.5rem;
+}
+
+#setting .forget-pwd{
+    float: right;
+}
+
+#panel-content button{
+    width: 100%;
+    margin: 0.5rem 0;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+    outline: none;
+    background-color: orange;
+}
+
+#reg{
+    font-size: 0.5rem;
+}
+
+#reg a{
+    text-decoration: none;
+    color: orange;
+    margin-left: 0.2rem;
+}
+#panel-footer{
+    text-align: left;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+
+}
+
+#panel-footer img{
+    width: 12%;
+    height: 12%;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
